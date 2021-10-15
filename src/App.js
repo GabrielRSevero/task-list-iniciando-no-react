@@ -3,7 +3,7 @@ import "./styles.css";
 import Navbar from "./components/navbar/navbar.js";
 import TaskList from "./components/TaskList/TaskList.js";
 
-const task = {
+const tasks = {
   id: "0",
   title: "Nova tarefa",
   state: "Pendente"
