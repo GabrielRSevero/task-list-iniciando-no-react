@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 8px;
+  padding: 0 0.5rem;
+}
+
+.App {
+  background-color: #933a93;
+  color: white;
+  height: 100%;
+  font-family: sans-serif;
+  min-height: 100vh;
+}

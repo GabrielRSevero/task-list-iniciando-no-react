@@ -1,0 +1,11 @@
+.navbar {
+  padding: 0.7rem;
+  color: white;
+  text-transform: uppercase;
+  background-color: #7a007a;
+  display: flex;
+  justify-items: flex-start;
+  text-align: start;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 100%);
+  font-size: 16px;
+}
